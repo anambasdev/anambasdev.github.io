@@ -1,0 +1,144 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    /* background-image: url(/img/1.JPG);
+    background-size: 1080px;
+    background-repeat: no-repeat; */
+}
+
+/* Scrollbar */
+
+/* body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+    background: #1f1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #ffca37;
+} */
+
+/* Akhir Scrollbar */
+
+/* Navbar */
+
+.navbar {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* .navbar:hover{
+    background-color: rosybrown;
+    transition: 0.5s;
+} */
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+/* .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,212,255,1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    GANTI RGBA NYA KALO MAU GANTI WARNA
+} */
+
+.nav-link:first-child {
+    margin-top: 20px;
+}
+
+.nav-link, .dropdown-item {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background: none;
+    border: none;
+}
+
+.dropdown-item {
+    background: none !important;
+}
+
+.dropdown-item:hover {
+    background: none;
+}
+
+/* Akhir Navbar */
+
+/* Section 1 */
+
+
+
+/* Akhir Section 1 */
+
+/* Section 2 */
+
+.section-2{
+    margin-top: 60px;
+}
+
+.row>.col>h1{
+    margin-bottom: 40px;
+}
+
+.container-berita {
+    margin-bottom: 20px;
+}
+
+
+.card-body h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 10px;
+    height: 70px;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+
+.card-body.showContent p {
+    height: auto;
+}
+
+/* Akhir Section 2 */
+
+/* Footer */
+
+.footer{
+    margin-top: 100px;
+    color: #acacac;
+    font-style: italic;
+
+}
+/* Akhir Footer */
+
+
+
+/* Owl Carousel */
+
+
+
+/* Owl Carousel */
+
+/* Utility */
+
+/* Akhir Utility */

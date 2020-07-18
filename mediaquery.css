@@ -1,0 +1,75 @@
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+
+    .carousel-inner{
+        margin-top: -75px;
+    }
+
+    .nav-link:first-child{
+        margin-top: 0px;
+    }
+
+    .dropdown-item {
+        margin-top: 0px;
+    }
+
+    .dropdown-menu {
+        left: -45px;
+        top: 30px;
+    }
+
+    .navbar-brand, .nav-link, .dropdown-item{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    }
+
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+
+    /* .card-berita {
+        width: 20em !important;
+    } */
+
+    .card-body h2{
+        font-size: 1.5em;
+    }
+    
+    .card-body p {
+        font-size: 1em;
+    }
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+
+
